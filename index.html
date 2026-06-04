@@ -1,19 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Calendars & Economy Visualization</title>
-</head>
-<body>
-  <h1>Calendars, Economy and Gender Visualization</h1>
+  <title>Calendars, Economy & Gender (2010–2019)</title>
 
-  <ul>
-    <li><a href="01_mapa_pib.html">Mapa PIB</a></li>
-    <li><a href="02_scatter_calendario_pib.html">Scatter análisis</a></li>
-    <li><a href="03_evolucion_pib.html">Evolución PIB</a></li>
-    <li><a href="04_participacion_femenina.html">Participación femenina</a></li>
-    <li><a href="05_intensidad_calendario.html">Intensidad calendario</a></li>
-  </ul>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: auto;
+      padding: 40px;
+      background-color: #f8f9fb;
+      color: #333;
+    }
+
+    h1 {
+      color: #1f4e79;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    a {
+      text-decoration: none;
+      color: #1f4e79;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Calendars, Economy & Gender Visualization</h1>
+
+  <p class="subtitle">
+    Interactive data visualization exploring the relationship between national calendar structures,
+    economic development (GDP per capita), and female labor participation across countries (2010–2019).
+  </p>
+
+  <div class="box">
+    <h2>Explore the visualizations</h2>
+    <ul>
+      <li><a href="01_mapa_pib.html"> World Map — GDP per capita</a></li>
+      <li><a href="02_scatter_calendario_pib.html"> Scatter — Calendar vs Economy vs Gender</a></li>
+      <li><a href="03_evolucion_pib.html"> GDP Evolution (Top countries)</a></li>
+      <li><a href="04_participacion_femenina.html"> Female Labor Participation Evolution</a></li>
+      <li><a href="05_intensidad_calendario.html"> Calendar Intensity Evolution</a></li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Project overview</h2>
+    <p>
+      This project does not aim to establish causality, but to explore patterns and correlations between
+      economic, social, and institutional variables using interactive data visualization.
+    </p>
+  </div>
 
 </body>
 </html>
